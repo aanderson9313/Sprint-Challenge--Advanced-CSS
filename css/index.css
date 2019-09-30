@@ -1,6 +1,6 @@
 .font {
   font-family: #454A59;
-  color: #5E6164;
+  color: #23293B;
 }
 .border {
   border: 1px solid #F1F1F1;
@@ -185,7 +185,7 @@ p {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 2%;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -196,7 +196,7 @@ p {
   text-decoration: none;
   padding-left: 20px;
   font-family: #454A59;
-  color: #5E6164;
+  color: #23293B;
 }
 footer {
   color: #22283B;
@@ -213,6 +213,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro .img-1 {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -249,6 +252,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn a {
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #22283A;
+  color: #F6F7F8;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .home .walk .walk-img {
   width: 46%;
