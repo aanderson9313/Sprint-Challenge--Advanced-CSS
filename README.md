@@ -32,17 +32,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1.What is the difference between an adaptive website and a fully responsive website?
 
-2. Describe what it means to be mobile first vs desktop first.
+A- responsive is fluid and adapts to whatever screen size you are using no matter the device. Adapative has set breakpoints at which they load specific page layouts. 
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+2.Describe what it means to be mobile first vs desktop first.
 
-4. How would you describe preprocessing to someone new to CSS?
+A-mobile first designs with the mobile users in mind, then they style for desktop. More than likely the user will open a page on a phone or tablet rather than a desktop.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+3.What does font-size: 62.5% in the html tag do for us when using rem units?
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+A-It makes all font sizes in px ten times the rem, thus making it easier to calculate.
+
+4.How would you describe preprocessing to someone new to CSS?
+
+A-its like making rice in a rice cooker, rather than simmering it on a stove. you still put the work in to get the end result, however the rice cooker does the hard part for you. the css preprocessor does the hard part for you. you just put in the ingredients and it spits out a beautiful page of css. 
+
+5.What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+A- I love the nesting ability and the variables. the concept of separating everything into its own page is a little weird. I get why it is done, just not my cup of tea. 
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section will prevent you from passing this challenge.
 
 ## Project Set Up
 
