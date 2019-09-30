@@ -4,7 +4,11 @@
     width: 100%;
     margin: @margin;
     .border();
-    
+    @media @phone {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
         .space{
             text-align: center;
             font-size: 4.2rem;
@@ -37,7 +41,8 @@
                     padding-left: 20px;
                     .font();
                     @media @phone {
-                    
+                        flex-direction: row;
+                        
                     }
                 
                 }

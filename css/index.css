@@ -176,6 +176,13 @@ p {
   margin: 0 auto;
   border: 1px solid #F1F1F1;
 }
+@media (max-width: 500px;) {
+  #top {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
 #top .space {
   text-align: center;
   font-size: 4.2rem;
@@ -205,6 +212,11 @@ p {
   font-family: #454A59;
   color: #23293B;
 }
+@media (max-width: 500px;) {
+  #top .navbar a {
+    flex-direction: row;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -223,6 +235,11 @@ footer {
 }
 .home .intro .img-1 {
   border-radius: 5px;
+}
+@media (max-width: 500px;) {
+  .home .intro .img-1 {
+    width: 50%;
+  }
 }
 .home .space-images {
   display: flex;
@@ -275,7 +292,7 @@ footer {
   background-color: #F6F7F8;
   color: #22283A;
 }
-@media (max-width: 500px) {
+@media (max-width: 500px;) {
   .home .walk .walk-text .btn {
     width: 100%;
   }
