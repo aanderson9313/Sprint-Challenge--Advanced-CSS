@@ -64,14 +64,16 @@
           a {
             text-decoration: none;
             font-size: 2rem;
-            background-color: @btn-bg-color;
-            color: @porcelain;
+            .button(@porcelain, @btn-bg-color);
             border-radius: 5px;
             padding-top: 10px;
             padding-bottom: 10px;
             padding-left: 20px;
             padding-right: 20px;
-
+              &:hover {
+                background-color: @porcelain;
+                color: @btn-bg-color;
+              }
           }
         
       }
