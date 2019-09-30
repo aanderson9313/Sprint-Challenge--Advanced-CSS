@@ -1,3 +1,10 @@
+.font {
+  font-family: #454A59;
+  color: #5E6164;
+}
+.border {
+  border: 1px solid #F1F1F1;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -163,6 +170,7 @@ p {
 #top {
   width: 100%;
   margin: 0 auto;
+  border: 1px solid #F1F1F1;
 }
 #top .space {
   text-align: center;
@@ -186,9 +194,9 @@ p {
 }
 #top .navbar a {
   text-decoration: none;
+  padding-left: 20px;
   font-family: #454A59;
   color: #5E6164;
-  padding-left: 20px;
 }
 footer {
   color: #22283B;
