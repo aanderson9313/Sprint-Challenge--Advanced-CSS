@@ -160,6 +160,32 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+#top {
+  width: 100%;
+}
+#top .space {
+  text-align: center;
+  font-size: 4.2rem;
+  font-family: #454A59;
+  padding-bottom: 2%;
+}
+#top .navbar {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+#top .navbar a {
+  text-decoration: none;
+  font-family: #454A59;
+  color: #5E6164;
+  padding-left: 20px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
