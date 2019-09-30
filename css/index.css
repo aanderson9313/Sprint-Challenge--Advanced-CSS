@@ -167,6 +167,10 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@phone {
+  width: 500px;
+  height: auto;
+}
 #top {
   width: 100%;
   margin: 0 auto;
@@ -191,6 +195,9 @@ p {
   justify-content: center;
   flex-wrap: nowrap;
   background-color: #F6F6F6;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.5;
 }
 #top .navbar a {
   text-decoration: none;
