@@ -2,17 +2,20 @@
 
 #top {
     width: 100%;
-    background-color: @nav-bg
+    margin: @margin;
+    
     
         .space{
             text-align: center;
             font-size: 4.2rem;
             font-family: @nav-font;
             padding-bottom: 2%;
+            background-color: @nav-bg;
+            padding-top: 20px;
 
         }
         .navbar {
-            width: @width;
+            width: 100%;
             margin: @margin;
             text-align: center;
             padding-bottom: 2%;
@@ -21,6 +24,7 @@
             flex-direction: row;
             justify-content: center;
             flex-wrap: nowrap;
+            background-color: @nav-bg;
                 a {
                     text-decoration: none;
                     font-family: @nav-font;
