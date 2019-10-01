@@ -19,7 +19,7 @@
     .img-1 {
       border-radius: 5px;
       @media @phone {
-        width: 50%;
+        width: 
       }
     }
   
@@ -29,16 +29,15 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
+    @media @phone {
+      
+    }
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-      @media @phone {
-     
-      }
-     
+
     }
   }
 
@@ -53,7 +52,9 @@
       margin-top: 13px;
     }
     @media @phone {
-      
+      display: flex;
+      flex-direction: column;
+      width: 100%;
     }
   }
 
@@ -63,6 +64,10 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media @phone {
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
     .walk-text {
       width: 50%;
@@ -89,10 +94,12 @@
                 background-color: @porcelain;
                 color: @btn-bg-color;
               }
+
+            @media @phone {
+              width: 100%;
+            }
           }
-          @media @phone {
-            width: 100%;
-          }
+         
         
       }
     }
@@ -105,9 +112,6 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
-      }
-      @media @phone {
-      
       }
     }
   }
